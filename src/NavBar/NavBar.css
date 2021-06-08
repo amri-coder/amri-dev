@@ -1,0 +1,169 @@
+.blue-text {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    
+    margin-left: 25%;
+    
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+.nav-links-mobile{
+    display: none;
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold;
+    
+  
+}
+.mobile-menu-icon {
+    display: none;
+}
+
+.navbar input:checked ~ .ul-list {
+    display: block;
+}
+
+
+
+.navbar .ul-list {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0%;
+}
+
+
+/**/
+.navbarColor {
+    background: #F1F1F1;
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+}
+.link0, .link1, .link2, .link3 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #888888;
+    
+
+}
+/**/
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.link0 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.link1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.link2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.link3 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+.navbar .ul-list .list-item a:hover {
+    color: #eb5424;
+}
+
+/* Media for Navbar Style */ 
+
+@media (min-width : 992px) {
+    .navbar label {
+        display: none;
+    }
+    
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul-list {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    .navbar .ul-list .list-item {
+        display: block;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+  
+ /*.Log {
+     display: flex;
+     position: absolute;
+     top: 15px;
+     left: 35px;
+ }*/
+ .nav-links {
+     display: none;
+ }
+ .nav-links-mobile {
+     position: absolute;
+     display: block;
+     list-style: none;
+     background-color: #F1F1F1;
+     left: 0;
+     top: 75px;
+     transition: all 0.5s ease-out;
+     width: 100%;
+ }
+ .link0,
+ .link1,
+ .link2,
+ .link3 {
+     text-align: center;
+     padding: 32px;
+     width: 100%;
+     transition: all 0.5s ease;
+ }
+ .mobile-menu-icon {
+     display: block;
+     position: absolute;
+     font-size: 30px;
+     color: blueviolet;
+     
+     border: none;
+     outline: none;
+     top:15px;
+     right: 25px;
+ }
+}

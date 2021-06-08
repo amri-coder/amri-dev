@@ -1,0 +1,12 @@
+.apropos {
+    padding-top: 7%;
+    margin:auto;
+    text-align: center;
+}
+
+
+@media screen and (max-width:450px) {
+    .apropos {
+        padding-top: 20%;
+    }
+}

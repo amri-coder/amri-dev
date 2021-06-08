@@ -1,0 +1,54 @@
+.services {
+    padding-top: 7%;
+}
+
+
+.h4Services {
+    font-family: 'Chango', cursive;
+    color: #3B82F6;
+}
+h2 {
+    font-family: 'Chango', cursive;
+}
+.h5 {
+    font-weight: bolder;
+    color: #EBCBB4;
+    font-family: 'Anton', sans-serif;
+}
+span {
+    color:tomato;
+}
+.MesServices {
+    font-weight: bold;
+}
+.services {
+    text-align: center;
+    margin: auto;
+}
+.services-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageConstructionMobile {
+    display: none;
+}
+.brr {
+    display: none;
+}
+
+
+@media screen and (max-width:450px) {
+    .imageConstructionMobile{
+        display: flex;
+    }
+    .imageConstruction {
+        display: none;
+    }
+    .brr {
+        display: flex;
+    }
+    .services {
+        padding-top: 20%;
+    }
+}

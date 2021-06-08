@@ -1,0 +1,51 @@
+.contact{
+    
+        padding-top: 7%;
+}
+
+tr, td {
+    padding: 15px;
+    margin-top: 10px;
+}
+h4 {
+    font-family: 'Chango', cursive;
+    color: #3B82F6;
+}
+.maison {
+    
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #bebebe,
+             -25px -25px 50px #ffffff;
+}
+.gauche{
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+.droite{
+    float: left;
+    margin-left: 5%;
+} 
+.tableau {
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.footer-contact {
+  margin-bottom: 0%;
+}
+.contact {
+    text-align: center;
+}
+.table3
+{
+margin: auto;
+}
+
+@media screen and (max-width:450px){
+    .contact {
+        padding-top: 20%;
+    }
+}

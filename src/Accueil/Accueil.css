@@ -1,0 +1,40 @@
+.accueil {
+    padding-top: 3%;
+}
+
+
+.table1
+{
+margin: auto;
+}
+.td1
+{
+text-align :center;
+}
+.table2 {
+    display: none;
+}
+
+
+.h3 {
+    font-family: 'Chango', cursive;
+}
+.h3-1 {
+    font-family: 'Chango', cursive;
+    color: #3B82F6;
+}
+@media screen and (max-width: 450px) {
+    .table1 {
+      display: none;
+    }
+    .table2{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+       
+    }
+    .accueil {
+        padding-top: 20%;
+    }
+    
+  }
